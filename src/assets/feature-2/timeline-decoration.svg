@@ -1,0 +1,111 @@
+<svg width="100%" viewBox="0 0 680 160" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Video editing timeline decoration</title>
+
+  <!-- Ruler ticks -->
+  <line x1="40"  y1="34" x2="40"  y2="42" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+  <line x1="120" y1="37" x2="120" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="200" y1="34" x2="200" y2="42" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+  <line x1="280" y1="37" x2="280" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="360" y1="34" x2="360" y2="42" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+  <line x1="440" y1="37" x2="440" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="520" y1="34" x2="520" y2="42" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+  <line x1="600" y1="37" x2="600" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="640" y1="34" x2="640" y2="42" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+  <line x1="80"  y1="39" x2="80"  y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="160" y1="39" x2="160" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="240" y1="39" x2="240" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="320" y1="39" x2="320" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="400" y1="39" x2="400" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="480" y1="39" x2="480" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="560" y1="39" x2="560" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="620" y1="39" x2="620" y2="42" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+
+  <!-- Track lane borders -->
+  <line x1="40" y1="42"  x2="640" y2="42"  stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="72"  x2="640" y2="72"  stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="84"  x2="640" y2="84"  stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="114" x2="640" y2="114" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="124" x2="640" y2="124" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="148" x2="640" y2="148" stroke="currentColor" stroke-opacity="0.15" stroke-width="0.75"/>
+  <line x1="40" y1="42"  x2="40"  y2="148" stroke="currentColor" stroke-opacity="0.25" stroke-width="0.75"/>
+
+  <!-- Track 1 clips -->
+  <rect x="41"  y="43" width="148" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="65"  y1="43" x2="65"  y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="90"  y1="43" x2="90"  y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="115" y1="43" x2="115" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="140" y1="43" x2="140" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="165" y1="43" x2="165" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="201" y="43" width="148" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="225" y1="43" x2="225" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="250" y1="43" x2="250" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="275" y1="43" x2="275" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="300" y1="43" x2="300" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="325" y1="43" x2="325" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="371" y="43" width="148" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="395" y1="43" x2="395" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="420" y1="43" x2="420" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="445" y1="43" x2="445" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="470" y1="43" x2="470" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="495" y1="43" x2="495" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="541" y="43" width="98"  height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="565" y1="43" x2="565" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="590" y1="43" x2="590" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="615" y1="43" x2="615" y2="71" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <!-- Track 2 clips -->
+  <rect x="41"  y="85" width="88"  height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="65"  y1="85" x2="65"  y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="90"  y1="85" x2="90"  y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="115" y1="85" x2="115" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="161" y="85" width="148" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="185" y1="85" x2="185" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="210" y1="85" x2="210" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="235" y1="85" x2="235" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="260" y1="85" x2="260" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="285" y1="85" x2="285" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="341" y="85" width="118" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="365" y1="85" x2="365" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="390" y1="85" x2="390" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="415" y1="85" x2="415" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="440" y1="85" x2="440" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <rect x="501" y="85" width="138" height="28" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.45" stroke-width="0.75"/>
+  <line x1="525" y1="85" x2="525" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="550" y1="85" x2="550" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="575" y1="85" x2="575" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="600" y1="85" x2="600" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <line x1="625" y1="85" x2="625" y2="113" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+
+  <!-- Audio waveform track -->
+  <rect x="41" y="125" width="598" height="22" rx="3" fill="none" stroke="currentColor" stroke-opacity="0.2" stroke-width="0.75"/>
+  <polyline fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"
+    points="44,136 50,130 54,141 58,128 62,138 66,132 70,143 74,127 78,139 82,133 86,140 90,129 94,137 98,131 102,142 106,128 110,140 114,134 118,143 122,128 126,137 130,132 134,141 138,129 142,138 146,133 150,140 154,130 158,139 162,134 166,143 170,128 174,138 178,132 182,141 186,127 190,139 194,133 198,142 202,129 206,138 210,132 214,140 218,130 222,137 226,134 230,143 234,129 238,138 242,133 246,141 250,128 254,139 258,133 262,140 266,131 270,137 274,134 278,142 282,128 286,139 290,133 294,140 298,130 302,138 306,132 310,141 314,129 318,138 322,134 326,140 330,131 334,137 338,133 342,143 346,128 350,138 354,132 358,140 362,130 366,137 370,134 374,143 378,129 382,139 386,133 390,140 394,131 398,137 402,133 406,142 410,128 414,139 418,132 422,141 426,129 430,138 434,133 438,143 442,128 446,138 450,131 454,140 458,130 462,137 466,133 470,141 474,129 478,138 482,134 486,140 490,130 494,137 498,133 502,143 506,129 510,139 514,132 518,141 522,128 526,139 530,133 534,140 538,131 542,137 546,134 550,143 554,128 558,138 562,132 566,140 570,130 574,137 578,133 582,142 586,129 590,138 594,133 598,141 602,128 606,139 610,133 614,140 618,131 622,137 626,134 630,143 634,128 638,136"/>
+
+  <!-- Keyframe diamonds track 1 -->
+  <polygon points="200,57 205,52 210,57 205,62" fill="currentColor" fill-opacity="0.45"/>
+  <polygon points="360,57 365,52 370,57 365,62" fill="currentColor" fill-opacity="0.45"/>
+  <polygon points="520,57 525,52 530,57 525,62" fill="currentColor" fill-opacity="0.45"/>
+
+  <!-- Keyframe diamonds track 2 -->
+  <polygon points="160,99 165,94 170,99 165,104" fill="currentColor" fill-opacity="0.45"/>
+  <polygon points="340,99 345,94 350,99 345,104" fill="currentColor" fill-opacity="0.45"/>
+  <polygon points="500,99 505,94 510,99 505,104" fill="currentColor" fill-opacity="0.45"/>
+
+  <!-- Cut marks -->
+  <line x1="190" y1="41" x2="190" y2="73"  stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+  <line x1="350" y1="41" x2="350" y2="73"  stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+  <line x1="520" y1="41" x2="520" y2="73"  stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+  <line x1="150" y1="83" x2="150" y2="115" stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+  <line x1="310" y1="83" x2="310" y2="115" stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+  <line x1="460" y1="83" x2="460" y2="115" stroke="currentColor" stroke-opacity="0.55" stroke-width="1"/>
+
+  <!-- Playhead -->
+  <polygon points="263,34 269,34 266,40" fill="currentColor" fill-opacity="0.7"/>
+  <line x1="266" y1="40" x2="266" y2="148" stroke="currentColor" stroke-opacity="0.7" stroke-width="1.25"/>
+</svg>
