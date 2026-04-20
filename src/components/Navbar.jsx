@@ -34,12 +34,6 @@ export default function NavigationBar() {
             <p className="text-base text-gray-600 py-3.5 px-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer leading-none">
               Gabung Jadi Editor
             </p>
-            <button
-              onClick={handleSoon}
-              className="mt-3 w-full rounded-full bg-raky-purple cursor-pointer font-semibold text-white py-3 active:scale-[0.98] transition-transform"
-            >
-              Konsultasi Sekarang
-            </button>
           </div>
           <hr className="border-b border-gray-200" />
         </div>
@@ -52,13 +46,6 @@ export default function NavigationBar() {
           <p className="text-[#707070] text-sm font-medium px-3 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
             Daftar Membership
           </p>
-          <button
-            onClick={handleSoon}
-            className="ml-2 px-[16px] py-[8px] text-sm rounded-full bg-raky-purple font-semibold text-white cursor-pointer
-                       hover:brightness-110 active:scale-[0.97] transition-all duration-150"
-          >
-            Konsultasi Sekarang
-          </button>
         </div>
         </div>
       <hr className="w-full border-b border-gray-200" />
