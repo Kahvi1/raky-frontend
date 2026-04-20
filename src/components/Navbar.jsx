@@ -9,8 +9,8 @@ export default function NavigationBar() {
   const [isDropdownIconOpen, setIsDropdownIconOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 bg-white z-50">
-      <div className="h-14 md:h-16 flex items-center justify-center px-4 md:px-6 bg-white max-w-7xl mx-auto">
+    <nav className="sticky top-0 bg-white z-50 mx-6">
+      <div className="h-14 md:h-16 flex items-center justify-center px-4 md:px-[0] md:px-6 bg-white max-w-6xl mx-auto">
         <a href="http://youtube.com/"><img src={logoWithText} alt="logo with text" className="h-[28px]" /></a>
         <div className="flex-1"></div>
         <div className="lg:hidden">
@@ -39,16 +39,15 @@ export default function NavigationBar() {
         </div>
 
         {/* Desktop nav */}
-        <div className="hidden lg:flex items-center gap-1">
-          <p className="text-[#707070] text-sm px-3 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+        <div className="hidden lg:flex items-center gap-10">
+          <p className="text-[#707070] text-sm px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
             Gabung Jadi Editor
           </p>
-          <p className="text-[#707070] text-sm font-medium px-3 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+          <p className="text-[#707070] text-sm font-medium px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
             Daftar Membership
           </p>
         </div>
         </div>
-      <hr className="w-full border-b border-gray-200" />
     </nav>
   )
 }
