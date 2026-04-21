@@ -12,7 +12,7 @@ export default function Feature5() {
             Cek Estimasi Biaya Editing Kamu
           </h2>
           <p className='mx-auto max-w-2xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.6] text-black/50'>
-            Pilih format, atur durasi, dan sesuaikan kecepatan pengerjaan.<ResponsiveBreak />Semua transparan tanpa biaya tersembunyi.
+            Pilih format, atur durasi, dan sesuaikan kecepatan pengerjaan.<ResponsiveBreak breakpoint='md' />Semua transparan tanpa biaya tersembunyi.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ export default function FinalCta() {
               Jadi Member untuk Layanan Prioritas
             </h2>
             <p className='mx-auto mb-9 max-w-2xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.65] text-white/90 sm:mb-10'>
-              Draft siap dalam 24 jam, akses ke editor khusus, dashboard order,<ResponsiveBreak />hak owning content, dan benefit membership lainnya.
+              Draft siap dalam 24 jam, akses ke editor khusus, dashboard order,<ResponsiveBreak breakpoint='md' />hak owning content, dan benefit membership lainnya.
             </p>
 
             <button

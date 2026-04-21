@@ -25,7 +25,7 @@ export default function Feature4() {
             Berbagai Style Konten Sudah Kami Kerjakan
           </h2>
           <p className='mx-auto max-w-6xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.6] text-black/50'>
-            Mulai dari konten edukasi, storytelling, sampai konten jualan. Semua kami sesuaikan dengan<ResponsiveBreak />karakter brand atau personal kamu.
+            Mulai dari konten edukasi, storytelling, sampai konten jualan. Semua kami sesuaikan dengan<ResponsiveBreak breakpoint='md' />karakter brand atau personal kamu.
           </p>
         </div>
 
