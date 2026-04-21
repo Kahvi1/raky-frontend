@@ -8,46 +8,47 @@ import { XMarkIcon, Bars3Icon } from '@heroicons/react/16/solid'
 export default function NavigationBar() {
   const [isDropdownIconOpen, setIsDropdownIconOpen] = useState(false);
 
+  // mx-6
+
   return (
-    <nav className="sticky top-0 bg-white z-50 mx-6">
-      <div className="h-14 md:h-16 flex items-center justify-center px-4 md:px-[0] md:px-6 bg-white max-w-6xl mx-auto">
-        <a href="http://youtube.com/"><img src={logoWithText} alt="logo with text" className="h-[28px]" /></a>
+    <nav className="sticky top-0 bg-white z-50 py-4">
+      <div className="h-14 md:h-16 flex items-center justify-center px-6 md:px-0 bg-white max-w-6xl mx-auto">
+        <a href="http://youtube.com/"><img src={logoWithText} alt="logo with text" className="h-[40px]" /></a>
         <div className="flex-1"></div>
         <div className="lg:hidden">
           <button onClick={(e) => setIsDropdownIconOpen(!isDropdownIconOpen)} className="size-[32px] flex items-center justify-center">
-            {isDropdownIconOpen ? <XMarkIcon className="size-[16px] md:size-[24px]" /> : <Bars3Icon className="size-[16px] md:size-[24px]" />}
+            {isDropdownIconOpen ? <XMarkIcon className="size-[36px]" /> : <Bars3Icon className="size-[36px]" />}
           </button>
-        </div>
-
-        {/* Mobile menu — always rendered, animated via max-h + opacity */}
-        <div
-          className={`
-            absolute top-full left-0 w-full bg-white overflow-hidden
-            transition-all duration-300 ease-in-out
-            ${isDropdownIconOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}
-          `}
-        >
-          <div className="flex flex-col px-4 pt-2 pb-6 gap-1">
-            <p className="text-base font-medium text-gray-900 py-3.5 px-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer leading-none">
-              Daftar Membership
-            </p>
-            <p className="text-base text-gray-600 py-3.5 px-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer leading-none">
-              Gabung Jadi Editor
-            </p>
-          </div>
-          <hr className="border-b border-gray-200" />
         </div>
 
         {/* Desktop nav */}
         <div className="hidden lg:flex items-center gap-10">
-          <p className="text-[#707070] text-sm px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+          <p className="text-[#707070] text-md px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
             Gabung Jadi Editor
           </p>
-          <p className="text-[#707070] text-sm font-medium px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+          <p className="text-[#707070] text-md px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
             Daftar Membership
           </p>
         </div>
+      </div>
+
+      {/* Mobile menu — always rendered, animated via max-h + opacity */}
+      <div
+        className={`
+          absolute top-full left-0 w-full bg-white overflow-hidden
+          transition-all duration-300 ease-in-out
+          ${isDropdownIconOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}
+        `}
+      >
+        <div className="flex flex-col px-4 pt-2 pb-6 gap-1">
+          <p className="text-base font-medium text-gray-700 py-3.5 px-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer leading-none">
+            Daftar Membership
+          </p>
+          <p className="text-base text-gray-700 py-3.5 px-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer leading-none">
+            Gabung Jadi Editor
+          </p>
         </div>
+      </div>
     </nav>
   )
 }

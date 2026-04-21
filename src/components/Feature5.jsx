@@ -1,17 +1,18 @@
 // icons
 import { CheckIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
 import { useMemo, useState } from "react";
+import { ResponsiveBreak } from "./ui/ResponsiveBreak";
 
 export default function Feature5() {
   return (
     <section id='feature_5' className='w-full bg-white px-4 pt-[64px] pb-[56px] sm:px-6 sm:pt-[76px] sm:pb-[64px] lg:pt-[104px] lg:pb-[84px]'>
       <div className='mx-auto max-w-6xl'>
         <div className='mx-auto flex max-w-4xl flex-col text-center pb-[40px]'>
-          <h2 className='mb-[24px] font-black text-black text-[clamp(1.9rem,4.4vw,3.2rem)] leading-none tracking-[-0.02em]'>
+          <h2 className='mb-[24px] font-[500] text-black text-[clamp(1.4rem,4.3vw,2.9rem)] tracking-[-0.02em]'>
             Cek Estimasi Biaya Editing Kamu
           </h2>
-          <p className='mx-auto max-w-2xl text-[clamp(0.9rem,1.1vw,1rem)] leading-[1.6] text-black/50'>
-            Pilih format, atur durasi, dan sesuaikan kecepatan pengerjaan. Semua transparan tanpa biaya tersembunyi.
+          <p className='mx-auto max-w-2xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.6] text-black/50'>
+            Pilih format, atur durasi, dan sesuaikan kecepatan pengerjaan.<ResponsiveBreak />Semua transparan tanpa biaya tersembunyi.
           </p>
         </div>
 

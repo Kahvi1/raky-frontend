@@ -8,6 +8,8 @@ import vid1Mp4 from '../assets/feature-4/vid1.mp4'
 import vid2Mp4 from '../assets/feature-4/vid2.mp4'
 import vid3Mp4 from '../assets/feature-4/vid3.mp4'
 
+import { ResponsiveBreak } from './ui/ResponsiveBreak'
+
 const showCaseVideos = [
   { id: 'vid1', webmSrc: vid1Webm, mp4Src: vid1Mp4 },
   { id: 'vid2', webmSrc: vid2Webm, mp4Src: vid2Mp4 },
@@ -19,11 +21,11 @@ export default function Feature4() {
     <section id='feature-4' className='w-full bg-white px-4 pt-[64px] pb-[80px] sm:px-6 sm:pt-[76px] sm:pb-[88px] lg:pt-[104px] lg:pb-[112px]'>
       <div className='mx-auto max-w-6xl'>
         <div className='mx-auto flex max-w-6xl flex-col text-center pb-[40px]'>
-          <h2 className='mb-[24px] font-black text-black text-[clamp(1.9rem,4.4vw,3.2rem)] leading-none tracking-[-0.02em]'>
+          <h2 className='mb-[24px] font-[500] text-black text-[clamp(1.4rem,4.3vw,2.9rem)] tracking-[-0.02em]'>
             Berbagai Style Konten Sudah Kami Kerjakan
           </h2>
-          <p className='mx-auto max-w-xl text-[clamp(0.9rem,1.1vw,1rem)] leading-[1.6] text-black/50'>
-            Mulai dari konten edukasi, storytelling, sampai konten jualan. Semua kami sesuaikan dengan karakter brand atau personal kamu.
+          <p className='mx-auto max-w-6xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.6] text-black/50'>
+            Mulai dari konten edukasi, storytelling, sampai konten jualan. Semua kami sesuaikan dengan<ResponsiveBreak />karakter brand atau personal kamu.
           </p>
         </div>
 

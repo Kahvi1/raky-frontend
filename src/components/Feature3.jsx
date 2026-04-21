@@ -1,6 +1,7 @@
 import step1Image from '../assets/feature-3/step_1.svg'
 import step2Image from '../assets/feature-3/step_2.svg'
 import step3Image from '../assets/feature-3/step_3.svg'
+import { ResponsiveBreak } from './ui/ResponsiveBreak'
 
 const processStepImages = [
   {
@@ -27,8 +28,8 @@ export default function Feature3() {
   return (
     <section id="feature_3" className="bg-white w-full px-4 pt-[64px] pb-[80px] sm:px-6 sm:pt-[76px] sm:pb-[88px] lg:pt-[104px] lg:pb-[112px]">
       <div className="mx-auto flex max-w-6xl flex-col text-center pb-[48px]">
-        <h2 className="mb-[24px] font-black text-black text-[clamp(1.9rem,4.4vw,3.2rem)] leading-none tracking-[-0.02em]">Proses Simpel Biar Konten Kamu Cepat Upload</h2>
-        <p className="mx-auto max-w-xl text:sm leading-[1.6] text-black/50">Alurnya kami buat straightforward, jadi kamu tinggal fokus ke konten.</p>
+        <h2 className="mb-[24px] font-[500] text-black text-[clamp(1.4rem,4.3vw,2.9rem)] tracking-[-0.02em]">Proses Simpel Biar Konten<ResponsiveBreak />Kamu Cepat Upload</h2>
+        <p className="mx-auto w-full text-[clamp(1.05rem,1.35vw,1.2rem)] leading-[1.6] text-black/50">Alurnya kami buat straightforward, jadi kamu tinggal fokus ke konten.</p>
       </div>
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-3">

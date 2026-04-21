@@ -3,6 +3,7 @@
  import imgDraft48Jam from '../assets/feature-2/draft_siap_dalam_48jam.svg'
  import imgSiapHandleBanyak from '../assets/feature-2/siap_handle_banyak.svg'
  import imgSelaluReady from '../assets/feature-2/selalu_ready_247.svg'
+ import { ResponsiveBreak } from './ui/ResponsiveBreak'
 
 
 export const feature2CardList = [
@@ -42,10 +43,10 @@ export const feature2CardList = [
   return (
     <section id="feature_2" className="w-full bg-white px-4 pt-[44px] pb-[80px] sm:px-6 sm:pt-[52px] sm:pb-[88px] lg:pt-[72px] lg:pb-[112px]">
       <div className="mx-auto flex max-w-6xl flex-col text-center pb-[48px]">
-        <h2 className="mb-[24px] font-black text-black text-[clamp(1.9rem,4.4vw,3.2rem)] leading-none tracking-[-0.02em]">
-          Solusi Editing untuk Kamu yang Siap Upload Konten Tiap Hari
+        <h2 className="mb-[24px] font-[500] text-black text-[clamp(1.4rem,4.3vw,2.9rem)] tracking-[-0.02em]">
+          Solusi Editing untuk Kamu yang<ResponsiveBreak />Siap Upload Konten Tiap Hari
         </h2>
-        <p className="mb-[24px] mx-auto max-w-xl text-sm leading-relaxed text-black/50 md:text-lg">
+        <p className="mb-[24px] mx-auto max-w-xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-relaxed text-black/50">
           Kami bantu kamu bukan cuma dari sisi editing, tapi dari sisi kecepatan, konsistensi, dan flow kerja yang
           lebih rapi.
          </p>
@@ -75,7 +76,7 @@ export function CardFeature2Copilot({ featureTitle, featureDesc, className = '',
   return (
     <article className={`flex h-fit w-full flex-col overflow-hidden rounded-4xl bg-[#FAFAFA] transition-[transform,box-shadow] duration-300 ease-out lg:hover:-translate-y-0.5 lg:hover:shadow-[0_22px_48px_-28px_rgba(15,23,42,0.35)] ${className}`}>
       <div className="flex flex-col gap-[clamp(0.5rem,1vw,0.75rem)] px-10 pt-10">
-        <h3 className="font-semibold tracking-tight text-[clamp(1.35rem,2.2vw,1.9rem)] leading-[1.08]">{featureTitle}</h3>
+        <h3 className="font-medium tracking-tight text-[clamp(1.35rem,2.2vw,1.9rem)] leading-[1.08]">{featureTitle}</h3>
         <p className="text-[clamp(0.9rem,1.1vw,1rem)] leading-[1.6] text-black/50">{featureDesc}</p>
       </div>
       <img src={imgSrc} alt={featureTitle} className={`object-contain mt-[40px] ${imgClassName ?? ''} `} />

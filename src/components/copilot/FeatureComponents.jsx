@@ -42,10 +42,10 @@ export const feature2CardList = [
   return (
     <section id="feature_2" className="w-full bg-gray-50 px-4 pt-16 sm:px-6 sm:pt-20 lg:pt-[120px]">
       <div className="mx-auto flex max-w-4xl flex-col text-center">
-        <h2 className="mb-[24px] font-black text-black text-[clamp(22px,3.6vw,41px)] leading-none tracking-[-0.02em]">
+        <h2 className="mb-[24px] font-[500] text-black text-[clamp(1.4rem,4.3vw,2.9rem)] tracking-[-0.02em]">
           Solusi Editing untuk Kamu yang Siap Upload Konten Tiap Hari
         </h2>
-        <p className="mb-[24px] mx-auto max-w-xl text-sm leading-relaxed text-black/50 md:text-lg">
+        <p className="mb-[24px] mx-auto max-w-xl text-[clamp(1.05rem,1.35vw,1.2rem)] leading-relaxed text-black/50">
           Kami bantu kamu bukan cuma dari sisi editing, tapi dari sisi kecepatan, konsistensi, dan flow kerja yang
           lebih rapi.
          </p>
