@@ -23,10 +23,10 @@ export default function NavigationBar() {
 
         {/* Desktop nav */}
         <div className="hidden lg:flex items-center gap-10">
-          <p className="text-[#707070] text-md px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+          <p className="text-[#707070] text-md px-0 py-2 rounded-lg transition-colors cursor-pointer">
             Gabung Jadi Editor
           </p>
-          <p className="text-[#707070] text-md px-0 py-2 rounded-lg hover:bg-gray-50 hover:text-gray-900 transition-colors cursor-pointer">
+          <p className="text-[#707070] text-md px-0 py-2 rounded-lg transition-colors cursor-pointer">
             Daftar Membership
           </p>
         </div>
